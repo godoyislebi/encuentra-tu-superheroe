@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">     
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Encuentra tu SuperHeroe</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand super-heroe" href="#">
+            <img src="assets/img/sh2.jpg" alt="marca SuperHeroe" width="40" height="34">
+            SuperHeroe
+          </a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <img src="assets/img/sh1.jpg" width="546" height="auto" alt="">
+            </div>
+            <div class="col-md-6 offset-md-3 mt-4">
+                <h1>Encuentra tu <span class="super-heroe">SuperHeroe</span></h1>
+            </div>
+            <div class="col-md-6 offset-md-3 mt-3">
+                <label for="basic-url" class="form-label form-heroe">Ingresa el número del <span class="super-heroe">SuperHeroe</span> a buscar (entre 1 y 452)</label>
+                <input id="inputHero" class="form-control" type="text" placeholder="" aria-label="default input example">
+            </div>    
+            <div class="col-md-6 offset-md-3">
+                <button id="button" type="button" class="btn btn-primary mt-3 btn-heroe">Buscar</button>
+            </div>
+        </div>
+        <div class="row ">
+            <div id="infoHeroe" class="col-6"></div>
+            <div id="graphicHeroe" class="col-6"></div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

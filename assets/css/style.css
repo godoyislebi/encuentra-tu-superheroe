@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-hero{
+    background-color: #2a3542;
+}
+
+.super-heroe{
+    font-family: 'Bangers', cursive;
+    font-size: 2,8rem;
+    color:#2b2f92;
+}
+
+.btn-heroe{
+    background-color: #2b2f92;
+    border-color: #2b2f92;
+    font-family: 'Bangers', cursive;
+}
+
+.form-heroe{
+    font-size: 18px;
+    font-weight: 300;
+}
+.form-heroe .super-heroe{
+    font-size: 20px;
+    color:#2b2f92;
+}
